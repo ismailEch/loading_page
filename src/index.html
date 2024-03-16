@@ -58,6 +58,27 @@
         background:rgb(6 182 212);
         clip-path: circle(600px at right 800px);
     }
+    .cards-section{
+        margin-top: 85px;
+        margin-bottom: 35px;
+    }
+    .cards-section h3{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .section-title h3::after {
+    content: '';
+    position: absolute;
+    bottom: -42px ;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 3px; 
+    background-color: pink; 
+    }
+    footer img{
+        max-width: 135px;
+    }
     </style>
 </head>
 <body>
@@ -90,5 +111,105 @@
             </div>
         </div>
     </section>
+    <!-- Services section -->
+    <section class="cards-section bg-gray-100">
+        <div class="section-title">
+            <h3 class="font-semibold tracking-wider text-sky-400 text-center text-5xl">Services</h3>
+        </div>
+        <div class="cards grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-6">
+            <!-- single card -->
+            <div data-aos="zoom-in" data-aos-delay="400"  class="mx-4 bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+                <a href="#" class="block rounded-t-lg overflow-hidden">
+                    <img class="transform hover:scale-125 transition-transform duration-1000" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="">
+                </a>
+                <div class="p-3 text-center"> 
+                    <a href="#">
+                        <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">TechSphere Solutions</h5>
+                    </a>
+                    <p class="font-normal text-gray-700 mb-3 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto mt-2">
+                        Read more
+                    </a>
+                </div>
+            </div>            
+            <!-- single card -->
+            <div data-aos="zoom-in" data-aos-delay="400" class="mx-4 bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+                <a href="#" class="block rounded-t-lg overflow-hidden">
+                    <img class="transform hover:scale-125 transition-transform duration-1000" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="">
+                </a>
+                <div class="p-3 text-center"> 
+                    <a href="#">
+                        <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">CodeCraft Innovations</h5>
+                    </a>
+                    <p class="font-normal text-gray-700 mb-3 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto mt-2">
+                        Read more
+                    </a>
+                </div>
+            </div>    
+            <!-- single card -->
+            <div data-aos="zoom-in" data-aos-delay="400" class="mx-4 bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+                <a href="#" class="block rounded-t-lg overflow-hidden">
+                    <img class="transform hover:scale-125 transition-transform duration-1000" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="">
+                </a>
+                <div class="p-3 text-center"> 
+                    <a href="#">
+                        <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">CyberNex Solutions</h5>
+                    </a>
+                    <p class="font-normal text-gray-700 mb-3 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto mt-2">
+                        Read more
+                    </a>
+                </div>
+            </div>    
+            <!-- single card -->
+            <div data-aos="zoom-in" data-aos-delay="400" class="mx-4 bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+                <a href="#" class="block rounded-t-lg overflow-hidden">
+                    <img class="transform hover:scale-125 transition-transform duration-1000" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="">
+                </a>
+                <div class="p-3 text-center"> 
+                    <a href="#">
+                        <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">DataDynamo Technologies</h5>
+                    </a>
+                    <p class="font-normal text-gray-700 mb-3 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto mt-2">
+                        Read more
+                    </a>
+                </div>
+            </div>    
+            <!-- single card -->
+            <div data-aos="zoom-in" data-aos-delay="400" class="mx-4 bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+                <a href="#" class="block rounded-t-lg overflow-hidden">
+                    <img class="transform hover:scale-125 transition-transform duration-1000" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="">
+                </a>
+                <div class="p-3 text-center"> 
+                    <a href="#">
+                        <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">CloudPulse IT Services
+                        </h5>
+                    </a>
+                    <p class="font-normal text-gray-700 mb-3 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto mt-2">
+                        Read more
+                    </a>
+                </div>
+            </div>    
+            <!-- single card -->
+            <div data-aos="zoom-in" data-aos-delay="400" class="mx-4 bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+                <a href="#" class="block rounded-t-lg overflow-hidden">
+                    <img class="transform hover:scale-125 transition-transform duration-1000" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="">
+                </a>
+                <div class="p-3 text-center"> 
+                    <a href="#">
+                        <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">TechSphere Solutions</h5>
+                    </a>
+                    <p class="font-normal text-gray-700 mb-3 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto mt-2">
+                        Read more
+                    </a>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <!-- end Services section -->
 </body>
 </html>
